@@ -1,0 +1,9 @@
+=========   Partie 3  ========
+
+1) Pour créer une librarie graphique, il faut créer une nouvelle classe qui hérite de IDisplay.
+   Elle requiert également une fonction init_screen(const size_t width, const size_t height) qui renvoie un pointeur sur IDisplay.
+   Cette fonction doit être en "extern 'C'".
+
+2) Pour créer une librarie game, il faut créer une nouvelle class qui hérite de IGame.
+   Elle requiert également une fonction init_game(const size_t width, const size_t height) qui renvoie un pointeur sur IGame.
+   Cette fonction doit être en "extern 'C'".
